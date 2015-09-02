@@ -38,7 +38,6 @@ public class GameCloud : MonoBehaviour {
         this.type = type;
         this.number = number;
         transform.SetParent(cloudPoint, false);
-
         numberLabel.text = number.ToString();
     }
 
